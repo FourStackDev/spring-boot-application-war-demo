@@ -20,6 +20,7 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<!-- Developers Information -->
 	<developers>
 		<developer>
 			<name>Manjunath HM</name>
@@ -27,8 +28,16 @@
 			<roles>
 				<role>developer</role>
 			</roles>
+			<timezone>Asia/Kolkata</timezone>
 		</developer>
 	</developers>
+	
+	<!-- SCM (Github) Connection Details -->
+	<scm>
+		<connection>scm:git:https://github.com/FourStackDev/spring-boot-application-war-demo</connection>
+		<developerConnection>scm:git:https://github.com/FourStackDev/spring-boot-application-war-demo</developerConnection>
+		<url>https://github.com/FourStackDev/spring-boot-application-war-demo.git</url>
+	</scm>
 
 	<dependencies>
 		<!-- Exclude the Tomcat dependency from the Spring Boot Starter Web -->
